@@ -20,13 +20,15 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 10px 15px;
   display: inline-block;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
+  text-decoration: underline;
+  color: blue;
   background-color: #555;
 }
 
